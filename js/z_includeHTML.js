@@ -31,3 +31,20 @@ function includeHTML() {
 window.addEventListener('DOMContentLoaded',()=>{
     includeHTML();
 });
+
+/*
+<head>
+    <!--Script-->
+    <script defer src="../js/includeHTML.js"></script>
+</head>
+
+<body>
+  <!-- HEADER -->
+    <div include-html="./header.html"></div>
+    <script>includeHTML();</script>
+
+  <!--FOOTER-->
+    <div include-html="./footer.html"></div>
+    <script>includeHTML();</script>
+</body>
+*/

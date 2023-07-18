@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="../css/main.css">
 
     <!-- Script -->
-    <!-- HTML iclude(Jquery) -->
+    <!-- HTML include(Jquery) -->
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript">   
     $(document).ready( function() {
@@ -39,24 +39,8 @@
     <!-- HEADER -->
     <header id="header"></header>
 
+    <!--SECTION-->
     <section>
-        <div class="main-section">
-            <section class="monthly-board">
-                이 달의 글
-            </section>
-            <section class="monthly-recipe">
-                이 달의 레시피
-            </section>
-            <section class="monthly-food">
-                이 달의 맛집
-            </section>
-            <section class="my-fridge">
-                나만의 냉장고
-            </section>
-            <section class="chat-section">
-                모임 채팅방
-            </section>
-        </div>
     </section>
 
     <!--FOOTER-->

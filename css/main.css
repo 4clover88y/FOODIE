@@ -1,52 +1,14 @@
-/*COMMON*/
-body {
-    font-family: 'Gowun Dodum', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.4;
-    color: #333;
-}
-    
-a {
-    text-decoration: none;
-}
-  
-a:link {
-    color: #333;
-}
-
-a:visited {
-    color: #333;
-}
-    
-img {
-    /* img(인라인 요소) 하단에 Baseline 공백을 제거 */
-    display: block;
-}
-
-
-/*CONTENT*/
-.content {
-    width: 1100px;
-    margin: 0 auto;
-    position: relative;
-}
-    
-
-/*SECTION*/
-section {
-    background-color: white;
-}
-
+/* SECTION */
 .main-section {
     width: 1100px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    background-color: skyblue;
 }
 
 .monthly-board {
-    width: 520px;
+    width: 525px;
     height: 400px;
     margin: 50px 50px 50px 0px;
     
@@ -54,7 +16,7 @@ section {
 }
 
 .monthly-recipe {
-    width: 520px;
+    width: 525px;
     height: 400px;
     margin-top: 50px;
 
@@ -62,7 +24,7 @@ section {
 }
 
 .monthly-food {
-    width: 520px;
+    width: 525px;
     height: 400px;
     margin: 0px 50px 50px 0px;
 
@@ -70,7 +32,7 @@ section {
 }
 
 .my-fridge {
-    width: 520px;
+    width: 525px;
     height: 400px;
 
     background-color: rgb(231, 245, 249);
@@ -82,31 +44,4 @@ section {
     margin-bottom: 50px;
 
     background-color: rgb(231, 245, 249);
-}
-
-
-/*FOOTER*/
-footer {
-    border-top: 1px solid lightgrey;
-    background-color: #F6F5F0;
-}
-
-footer .content {
-    height: 130px;
-}
-
-.go-notice {
-    padding: 28px 0px 20px 10px;
-    font-size: 16px;
-}
-
-.go-notice a {
-    width: 300px;
-}
-
-
-
-.footer-text {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 10px;
 }

@@ -1,43 +1,4 @@
-/*COMMON*/
-body {
-    font-family: 'Gowun Dodum', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.4;
-    color: #333;
-}
-    
-a {
-    text-decoration: none;
-}
-  
-a:link {
-    color: #333;
-}
-
-a:visited {
-    color: #333;
-}
-    
-img {
-    /* img(인라인 요소) 하단에 Baseline 공백을 제거 */
-    display: block;
-}
-
-
-/*CONTENT*/
-.content {
-    width: 1100px;
-    margin: 0 auto;
-    position: relative;
-}
-    
-
 /*form*/
-.sign-up {
-    background-color: #fff;
-}
-
 .up-text {
     height: 40px;
     padding: 30px 0px 0px 5px;
