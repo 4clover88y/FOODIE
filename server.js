@@ -57,6 +57,10 @@ app.get('/findPw', (req, res) => {
   res.render('findPw');
 })
 
+app.get('/changePw', (req, res) => {
+  res.render('changePw');
+})
+
 
 
 app.get('/board', (req, res) => {
