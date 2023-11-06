@@ -67,14 +67,31 @@ app.get('/board', (req, res) => {
   res.render('board');
 })
 
-app.get('/board/Write', (req, res) => {
+app.get('/board/write', (req, res) => {
   res.render('boardWrite');
 })
 
-app.get('/board/Post', (req, res) => {
+app.get('/board/write/edit', (req, res) => {
+  res.render('boardEdit');
+})
+
+app.get('/board/post', (req, res) => {
   res.render('boardPost');
 })
 
+
+// gather
+app.get('/gather', (req, res) => {
+  res.render('gatherMain');
+})
+
+app.get('/gather/recruiting', (req, res) => {
+  res.render('gatherRecruiting');
+})
+
+app.get('/chat', (req, res) => {
+  res.render('chat');
+})
 
 app.get('/chat/list', (req, res) => {
   res.render('chatList');
