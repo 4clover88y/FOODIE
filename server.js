@@ -96,3 +96,15 @@ app.get('/chat', (req, res) => {
 app.get('/chat/list', (req, res) => {
   res.render('chatList');
 })
+
+app.get('/gather/recruiting', (req, res) => {
+  res.render('gatherRecruiting');
+})
+
+app.get('/gather/create', (req, res) => {
+  res.render('gatherCreate');
+})
+
+// app.get('/datetest', (req, res) => {
+//   res.render('datetest');
+// })
