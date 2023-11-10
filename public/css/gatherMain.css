@@ -261,7 +261,7 @@
 
 	border: 1px solid rgb(230, 152, 152);
 	background-color: aliceblue;
-	background-image: url("/images/candy-blue.png");
+	background-image: url("/images/candy-black.png");
 }
 
 
@@ -271,7 +271,7 @@
 
 	border: 1px solid rgb(230, 152, 152);
 	background-color: rgb(122, 122, 122);
-	background-image: url("/images/candy-blue.png");
+	background-image: url("/images/candy-black.png");
 }
 
 .slider-wrap-completed div .slide-item:hover button {

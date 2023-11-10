@@ -101,10 +101,11 @@ app.get('/gather/recruiting', (req, res) => {
   res.render('gatherRecruiting');
 })
 
+app.get('/gather/completed', (req, res) => {
+  res.render('gatherCompleted');
+})
+
 app.get('/gather/create', (req, res) => {
   res.render('gatherCreate');
 })
 
-// app.get('/datetest', (req, res) => {
-//   res.render('datetest');
-// })
