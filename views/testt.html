@@ -1,5 +1,54 @@
-<!-- STYLESHEET -->
-<link rel="stylesheet" href="/css/gatherCreate.css">
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김밥집</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/images/favicon.png">
+
+    <!-- Style Reset -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
+    <!-- Google APIs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  
+    <!-- Common Stylesheet -->
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+
+    <!-- Script -->
+    <script src="/socket.io/socket.io.js"></script>
+
+    <!-- HTML include(Jquery) -->
+    <!-- <script src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+
+    <!-- Slick Slide Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- Slick Slide Script -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/js/slide.js"></script>
+
+
+    <!-- Functional Script -->
+    <script src="../public/js/imgpreview.js"></script>
+    <script src="../public/js/selectRegion.js"></script>
+    <!-- <script src="../public/js/date.js"></script> -->
+</head>
+<body>
+    <!-- STYLESHEET -->
+<link rel="stylesheet" href="../public/css/gatherCreate.css">
 
 <!-- SECTION -->
 <section class="create-gather">
@@ -8,6 +57,7 @@
             <a>🍴 밥모임 만들어요 </a>
         </div>
 
+        <!-- <input type="date" id="basicdeadline"> -->
         <!-- form box -->
         <div class="form-box">
             <form name="createGather" action="/gather/createGather" method="POST">
@@ -78,7 +128,7 @@
                     <tr>
                         <td colspan="3" class="g-deadline">
                             <div class="t-box-title">모집 마감일</div>
-                            <input type="date" name="deadline" id="7daysfromnow" required>
+                            <input type="date" name="deadline" id="basicdeadline">
                             <div class="t-box-text">마감일을 알려주세요 :) 기본 마감일은 일주일 후 입니다.</div>
                         </td>
                     </tr>
@@ -100,7 +150,7 @@
     </div>
 </section>
 
-<!-- <script>
+<script>
     const basicdate = document.querySelector('#basicdeadline');
 
     date = new Date();
@@ -111,7 +161,7 @@
     basic_deadline_value = year + "-" + month + "-" + day;
 
     basicdate.value = basic_deadline_value;
-</script> -->
+</script>
 
 <!-- <script>
         function getDateAfter7() {
@@ -136,3 +186,6 @@
         dateForm.setAttribute("min", new Date().toISOString().split("T")[0]);
         // dateForm.setAttribute("max", );
 </script> -->
+
+</body>
+</html>

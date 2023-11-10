@@ -32,12 +32,12 @@
 			</div>
 			<div class="gathering-slide">
 				<div class="prevArrow-box">
-					<button class="prevArrow">
+					<button class="prevArrow-recruiting">
 						<i class="las la-chevron-left"></i>
 					</button>
 				</div>
 				<!-- 슬라이드 갯수 최대 6개 -->
-				<div class="slider-wrap">
+				<div class="slider-wrap-recruiting">
 
 					<!-- if 모집중인 모임이 없을 경우 출력 -->
 					<div class="slide-item">
@@ -45,7 +45,7 @@
 					</div>
 
 					<!-- if 모집중인 모임 최신순으로 최대 5개 출력 -->
-					<% for(var i = 0; i < 5; i++){ %>
+					<% for(var i = 0; i < 5; i++) { %>
 						<div class="slide-item">
 							<span class="gather-name">
 								모임이름
@@ -80,12 +80,13 @@
 
 				</div>
 				<div class="nextArrow-box">
-					<button class="nextArrow">
+					<button class="nextArrow-recruiting">
 						<i class="las la-chevron-right"></i>
 					</button>
 				</div>		  
 			</div>
 		</div>
+		
 		<div class="completed-box">
 			<div class="gathering-title">
 				<span class="text">모집 끝! 이런 모임도 있었어요 :)</span>
@@ -95,12 +96,12 @@
 			</div>
 			<div class="gathering-slide">
 				<div class="prevArrow-box">
-					<button class="prevArrow">
+					<button class="prevArrow-completed">
 						<i class="las la-chevron-left"></i>
 					</button>
 				</div>
 				<!-- 슬라이드 갯수 최대 6개 -->
-				<div class="slider-wrap">
+				<div class="slider-wrap-completed">
 
 					<!-- if 모집 완료된 모임이 없을 경우 출력 -->
 					<div class="slide-item">
@@ -143,7 +144,7 @@
 
 				</div>
 				<div class="nextArrow-box">
-					<button class="nextArrow">
+					<button class="nextArrow-completed">
 						<i class="las la-chevron-right"></i>
 					</button>
 				</div>		  

@@ -39,20 +39,20 @@
 
     <!-- Slick Slide Script -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="/js/slide.js"></script>
+    <script src="/js/slideRecruiting.js"></script>
+    <script src="/js/slideCompleted.js"></script>
 
+</head>
+<body>
+    <%- include('header.ejs') %>
+    <div class="container">
+        <%- body %>
+    </div>
+    <%- include('footer.ejs') %> 
 
     <!-- Functional Script -->
     <script src="/js/imgpreview.js"></script>
     <script src="/js/selectRegion.js"></script>
-    <script src="/js/date.js"></script>
-
-</head>
-<body>
-    <%- include('header.ejs')%>
-    <div class="container">
-        <%- body %>
-    </div>
-    <%- include('footer.ejs')%> 
+    <script src="/js/deadline.js"></script>
 </body>
 </html>

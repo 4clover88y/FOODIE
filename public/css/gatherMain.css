@@ -99,11 +99,11 @@
 	/* background-color: rgb(241, 225, 255); */
 }
 
-.slider-wrap {
+.slider-wrap-recruiting {
 	justify-content: center;
 }
 
-.slider-wrap div {
+.slider-wrap-recruiting div {
 	width: 800px;
 	height: 200px;
 
@@ -111,7 +111,7 @@
 
 }
 
-.slider-wrap div .slide-item {
+.slider-wrap-recruiting div .slide-item {
 	width: 205px;
 	height: 198px;
 
@@ -173,7 +173,7 @@
 	cursor: pointer;
 }
 
-.slider-wrap div .slide-item:hover {
+.slider-wrap-recruiting div .slide-item:hover {
 	width: 205px;
 	height: 198px;
 
@@ -182,10 +182,9 @@
 	background-image: url("/images/candy-blue.png");
 }
 
-.slider-wrap div .slide-item:hover button {
+.slider-wrap-recruiting div .slide-item:hover button {
 	display: inline-block;
 }
-
 
 
 /* arrow button */
@@ -195,7 +194,7 @@
 	align-items: center;
 }
 
-.prevArrow {
+.prevArrow-recruiting {
 	width: 19px;
 	height: 28px;
 	position: relative;
@@ -220,7 +219,7 @@
 	align-items: center;
 }
 
-.nextArrow {
+.nextArrow-recruiting {
 	width: 19px;
 	height: 28px;
 	position: relative;
@@ -237,4 +236,74 @@
 
 .la-chevron-right {
 	font-size: 32px;
+}
+
+
+
+
+
+/* completed */
+.slider-wrap-completed {
+	justify-content: center;
+}
+
+.slider-wrap-completed div {
+	width: 800px;
+	height: 200px;
+
+	/* background-color: aliceblue; */
+
+}
+
+.slider-wrap-completed div .slide-item {
+	width: 205px;
+	height: 198px;
+
+	border: 1px solid rgb(230, 152, 152);
+	background-color: aliceblue;
+	background-image: url("/images/candy-blue.png");
+}
+
+
+.slider-wrap-completed div .slide-item:hover {
+	width: 205px;
+	height: 198px;
+
+	border: 1px solid rgb(230, 152, 152);
+	background-color: rgb(122, 122, 122);
+	background-image: url("/images/candy-blue.png");
+}
+
+.slider-wrap-completed div .slide-item:hover button {
+	display: inline-block;
+}
+
+.prevArrow-completed {
+	width: 19px;
+	height: 28px;
+	position: relative;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	
+	background-color: white;
+	border: none;
+
+	cursor: pointer;
+}
+
+.nextArrow-completed {
+	width: 19px;
+	height: 28px;
+	position: relative;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+	background-color: white;
+	border: none;
+
+	cursor: pointer;
 }
