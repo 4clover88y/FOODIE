@@ -24,7 +24,10 @@
                         <td rowspan="2" class="g-image">
                             <div class="t-box-title">대표 이미지 128x128 픽셀</div>
                             <img class="image-box" id="preview" />
-                            <input type="file" name="image_url" accept="image/*" value="" onchange="readURL(this);" required> 
+                            <label for="file">
+                                <div class="btn-upload">이미지 불러오기</div>
+                            </label>
+                            <input type="file" name="image_url" id="file" accept="image/*" value="" onchange="readURL(this);" required> 
                         </td>
                     </tr>
                     <tr>

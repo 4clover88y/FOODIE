@@ -30,20 +30,22 @@
 					<a href="/gather/recruiting">[더보기]</a>
 				</span>
 			</div>
+
+			<!-- if 모집중인 모임이 없을 경우 출력 -->
+			<div class="no-gather">
+				현재 모집중인 모임이 없어요! 모임을 직접 만들어 보세요 :)
+			</div>
+
+			<!-- if 모집중인 모임이 있을 경우 -->
 			<div class="gathering-slide">
+
 				<div class="prevArrow-box">
 					<button class="prevArrow-recruiting">
 						<i class="las la-chevron-left"></i>
 					</button>
 				</div>
-				<!-- 슬라이드 갯수 최대 6개 -->
+
 				<div class="slider-wrap-recruiting">
-
-					<!-- if 모집중인 모임이 없을 경우 출력 -->
-					<div class="slide-item">
-						현재 모집중인 모임이 없습니다.
-					</div>
-
 					<!-- if 모집중인 모임 최신순으로 최대 5개 출력 -->
 					<% for(var i = 0; i < 5; i++) { %>
 						<div class="slide-item">
@@ -79,11 +81,13 @@
 					</div>
 
 				</div>
+
 				<div class="nextArrow-box">
 					<button class="nextArrow-recruiting">
 						<i class="las la-chevron-right"></i>
 					</button>
-				</div>		  
+				</div>		 
+
 			</div>
 		</div>
 		
@@ -94,20 +98,22 @@
 					<a href="/gather/completed">[더보기]</a>
 				</span>
 			</div>
+
+			<!-- if 모집중인 모임이 없을 경우 출력 -->
+			<div class="no-gather">
+				아직 모집이 완료된 모임이 없어요!
+			</div>
+
+			<!-- if 모집중인 모임이 있을 경우 -->
 			<div class="gathering-slide">
+
 				<div class="prevArrow-box">
 					<button class="prevArrow-completed">
 						<i class="las la-chevron-left"></i>
 					</button>
 				</div>
-				<!-- 슬라이드 갯수 최대 6개 -->
+
 				<div class="slider-wrap-completed">
-
-					<!-- if 모집 완료된 모임이 없을 경우 출력 -->
-					<div class="slide-item">
-						현재 모집 완료된 모임이 없습니다.
-					</div>
-
 					<!-- if 모집 완료된 모임 최신순으로 최대 5개 출력 -->
 					<% for(var i = 0; i < 5; i++){ %>
 						<div class="slide-item">
@@ -143,11 +149,13 @@
 					</div>
 
 				</div>
+
 				<div class="nextArrow-box">
 					<button class="nextArrow-completed">
 						<i class="las la-chevron-right"></i>
 					</button>
 				</div>		  
+				
 			</div>
 		</div>
 
