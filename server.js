@@ -109,3 +109,20 @@ app.get('/gather/create', (req, res) => {
   res.render('gatherCreate');
 })
 
+
+// notice
+app.get('/notice', (req, res) => {
+  res.render('noticeList');
+})
+
+app.get('/notice/update', (req, res) => {
+  res.render('noticeUpdate');
+})
+
+app.get('/notice/view', (req, res) => {
+  res.render('noticeView');
+})
+
+app.get('/notice/write', (req, res) => {
+  res.render('noticeWrite');
+})
