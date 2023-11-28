@@ -218,3 +218,18 @@
     border: 2px solid whitesmoke;
     color: dodgerblue;
 }
+
+
+/* notice */
+.non-notice {
+	display: flex;
+	position: relative;
+	justify-content: center;
+}
+
+.non-notice-content {
+	margin: 50px 0;
+	font-size: 24px;
+	font-weight: bold;
+	color: rgb(100, 100, 100);
+}

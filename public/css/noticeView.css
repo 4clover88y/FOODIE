@@ -1,18 +1,8 @@
-section {
-    display: flex;
-    position: relative;
-
-    /* border: 1px solid black; */
-}
-
 .board-post-section {
     width: 950px;
-    /* padding-left: 100px; */
     margin: 0 auto;
     position: relative;
     display: block;
-
-    /* border: 1px solid grey; */
 }
 
 .post-section {
@@ -63,6 +53,7 @@ section {
 
 /* title */
 .post-title {
+    margin-top: 40px;
     padding: 12px 7px;
     font-size: 22px;
     font-weight: bold;
@@ -149,6 +140,7 @@ section {
     padding: 25px 10px 45px 10px;
     font-size: 17px;
     line-height: 200%;
+    /* white-space:pre-wrap; */
 }
 
 
@@ -332,8 +324,8 @@ textarea:focus {
     border-radius: 5px;
     border: 1px solid rgb(205, 205, 205);
     background-color: rgb(255, 255, 255);
+    color: rgb(101, 101, 101);
 }
-
 
 
 /* botton navigation */
@@ -344,12 +336,12 @@ textarea:focus {
     margin: auto;
     display: flex;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 
-    /* justify-content: right; */
+    justify-content: right;
 }
 
-.goback {
+/* .goback {
     display: flex;
     position: relative;
     padding: 2px 0 0 15px;
@@ -360,12 +352,11 @@ textarea:focus {
     color: black;
     text-decoration: underline;
     text-decoration-color: #656565;
-}
+} */
 
 .editbox {
     display: flex;
-    position: absolute;
-    right: 0px;
+    position: relative;
 }
 
 .editbox ul {
@@ -398,26 +389,3 @@ textarea:focus {
     color: black;
     cursor: pointer;
 }
-
-
-
-/* sidebar */
-/* .sidebar-section {
-    width: 100px;
-    height: 100px;
-    position: fixed;
-    top:0;
-    right: 10px;
-
-    border: 1px solid gainsboro;
-}
-
-.sidebar-box {
-    width: 20px;
-    height: 50px;
-    position: sticky;
-    top: 30%;
-    right: 10%;
-
-    border: 1px solid black;
-} */
